@@ -2,9 +2,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-/**
- * Created by LaunchCode
- */
 public class TestHelloWorld {
 
     @Test
@@ -13,3 +10,5 @@ public class TestHelloWorld {
     }
 
 }
+
+

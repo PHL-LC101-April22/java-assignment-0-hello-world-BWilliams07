@@ -1,6 +1,4 @@
-/**
- * Created by LaunchCode
- */
+
 public class HelloWorld {
 
     public static void main(String[] args) {
@@ -8,7 +6,7 @@ public class HelloWorld {
     }
 
     public static String sayHello() {
-        return "";
+        return "Hello, World!";
     }
 
 }
