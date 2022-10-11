@@ -1,13 +1,14 @@
+import org.junit.Test;
 
-class HelloWorld {
+import static org.junit.Assert.assertEquals;
 
-    public static void main(String[] args) {
-        System.out.println(sayHello());
+public class TestHelloWorld {
+
+    @Test
+    public void testSayHello() {
+        assertEquals("Hello, World!", HelloWorld.sayHello());
     }
 
-    public static String sayHello() {
-        return "Hello, World!";
-    }
 }
 
 
